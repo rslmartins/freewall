@@ -257,6 +257,19 @@ if (window.location.href.indexOf("estadao.com.br") !== -1) {
     }
 }
 
+if (window.location.href.indexOf("folha.uol.com.br") !== -1) {
+        const paywall = document.getElementById('paywall-screen');
+        removeDOMElement(paywall);
+        
+        const paywall2 = document.getElementById('paywall-fill');
+        removeDOMElement(paywall2);
+
+        while(document.documentElement.style.overflow !== "scroll"){
+        document.documentElement.style.overflow = "scroll"
+        document.documentElement.style.position = "relative"
+    }
+}
+
 if (window.location.href.indexOf("nexojornal.com.br") !== -1) {
        const content = document.getElementsByClassName('Datawall__wrap-container___1eJah');
        

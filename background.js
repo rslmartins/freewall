@@ -30,6 +30,7 @@ var defaultSites = {
   'First Things': 'firstthings.com',
   'Financial News': 'fnlondon.com',
   'Financial Times': 'ft.com',
+  'Folha de Sao Paulo': 'folha.uol.com.br',
   'Foreign Policy': 'foreignpolicy.com',
   'Glassdoor': 'glassdoor.com',
   'Haaretz': 'haaretz.co.il',
