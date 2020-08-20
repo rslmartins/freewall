@@ -272,12 +272,12 @@ if (window.location.href.indexOf("folha.uol.com.br") !== -1) {
 
 if (window.location.href.indexOf("nexojornal.com.br") !== -1) {
        const content = document.getElementsByClassName('Datawall__wrap-container___1eJah');
-       
+
        if (content)
             for (var i = 0; i < content.length; i++) {
                  content[i].remove();}
 
-        while(document.documentElement.style.overflow !== "scroll"){
+       while(document.documentElement.style.overflow !== "scroll"){
         document.documentElement.style.overflow = "scroll"
         document.documentElement.style.position = "relative"
    }
