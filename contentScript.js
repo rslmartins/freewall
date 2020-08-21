@@ -264,6 +264,9 @@ if (window.location.href.indexOf("folha.uol.com.br") !== -1) {
         const paywall2 = document.getElementById('paywall-fill');
         removeDOMElement(paywall2);
 
+        const paywall3 = document.getElementById('paywall-screen');
+        removeDOMElement(paywall3);
+
         for (div=0; div < document.querySelectorAll('div').length; div++) {
           document.querySelectorAll('div')[div].style.overflow = "auto";
         };
