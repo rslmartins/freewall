@@ -267,13 +267,17 @@ if (window.location.href.indexOf("folha.uol.com.br") !== -1) {
         const paywall3 = document.getElementById('paywall-screen');
         removeDOMElement(paywall3);
 
+        const paywall4 = document.getElementById('paywall-flutuante');
+        removeDOMElement(paywall4);
+
+
         for (div=0; div < document.querySelectorAll('div').length; div++) {
           document.querySelectorAll('div')[div].style.overflow = "auto";
         };
 }
 
 if (window.location.href.indexOf("nexojornal.com.br") !== -1) {
-       const content = document.getElementsByClassName('Datawall__wrap-container___1eJah');
+       const content = document.getElementsByClassName('PaywallBumper__wrap-container___3_kL1');
 
        if (content)
             for (var i = 0; i < content.length; i++) {
